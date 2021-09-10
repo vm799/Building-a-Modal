@@ -1,0 +1,81 @@
+
+#webpage {
+    width:100%;
+    height:fit-content;
+}
+
+
+#closed-modal{
+
+}
+
+button {
+ background-color: greenyellow;
+ border-radius:  15px;
+ font-size: 1em;
+ padding: 10px 30px;
+ border-style:  none;
+margin-bottom: 20px;
+color:rgb(238, 16, 190);
+font-weight: bolder;
+
+}
+
+button:hover {
+    background-color: rgb(238, 16, 190);
+    color: white;
+    border-color: whitesmoke;
+    border-style: groove;
+}
+
+h1 {
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: rgb(238, 16, 190);
+margin:200px 100px 50px;
+}
+
+p{
+    color: rgb(238, 16, 190); 
+}
+
+#main-el {
+
+
+width: 100%;
+margin: 0 auto;
+padding: 2rem;
+
+}
+   
+
+#open-modal {
+    display: none;
+    background-image: url('https://cdn.pixabay.com/photo/2014/12/16/22/25/woman-570883__480.jpg');
+    
+}
+
+#open-modal h1 {
+    padding: 100px 50px 0;
+}
+
+#open-modal button {
+    margin-bottom: 100px;
+}
+
+#closed-modal {
+    height: 500px;
+    background-image: url('https://cdn.pixabay.com/photo/2014/12/16/22/25/woman-570883__480.jpg');
+    
+  
+}
+
+
+     
+body  {
+    
+   width: 100%;
+   text-align: center;
+    margin: 0 auto;
+  
+
+}
